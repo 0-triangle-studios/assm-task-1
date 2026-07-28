@@ -3,7 +3,7 @@ p {
     background-color: blue;
     
 }
-header {
+h1 {
     width: 100%;
     position: fixed;
     background-color: rgb(0, 18, 59);
@@ -12,11 +12,11 @@ header {
     align-items: center;
 }
 strong {
-    font-size: 35px;
+    font-size: 55px;
     font-family: sans-serif;
     color: aliceblue;
     /*color: rgb(0, 77, 141);*/
 }
 img {
-    width: 50px;
+    width: 80px;
 }
