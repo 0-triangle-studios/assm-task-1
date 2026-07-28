@@ -1,4 +1,22 @@
 p {
     color :aliceblue;
-    background-color: black;
+    background-color: blue;
+    
+}
+header {
+    width: 100%;
+    position: fixed;
+    background-color: rgb(0, 18, 59);
+    text-align: left;
+    display: flex;
+    align-items: center;
+}
+strong {
+    font-size: 35px;
+    font-family: sans-serif;
+    color: aliceblue;
+    /*color: rgb(0, 77, 141);*/
+}
+img {
+    width: 50px;
 }
