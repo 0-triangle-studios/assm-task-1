@@ -1,12 +1,18 @@
-span {
-   color :aliceblue;
-   background-color: blue;
-  
-}
 .logo {
    margin-right: auto;
    vertical-align: top;
    line-height: 0px;
+}
+img {
+   width: 80px;
+}
+body {
+   background-color: rgb(12, 45, 74);
+   margin: 0px;
+}
+.mainui {
+   display: flex;
+   flex-direction: column;
 }
 header {
    width: 100%;
@@ -39,13 +45,6 @@ strong {
    color: aliceblue;
    /*color: rgb(0, 77, 141);*/
 }
-img {
-   width: 80px;
-}
-body {
-   background-color: rgb(12, 45, 74);
-   margin: 0px;
-}
 .about {
    background-color: rgb(31, 37, 159);
    margin: 20px auto auto auto;
@@ -68,11 +67,13 @@ h2 {
    text-align: center;
    color: white;
 }
+/*main game buttons*/
 .bundle {
    display: flex;
    margin: 20px 350px 20px 350px;
    gap: 20px;
    justify-content: space-between;
+
 }
 .gamecard {
    background-color: rgb(13, 13, 110);
@@ -87,6 +88,9 @@ h2 {
    transform: translateY(-5px);
 }
 
-
-
-
+/*useless probably*/
+span {
+   color :aliceblue;
+   background-color: blue;
+  
+}
