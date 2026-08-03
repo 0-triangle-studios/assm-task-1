@@ -10,10 +10,6 @@ body {
    background-color: rgb(12, 45, 74);
    margin: 0px;
 }
-.mainui {
-   display: flex;
-   flex-direction: column;
-}
 header {
    width: 100%;
    position: static;
@@ -45,6 +41,21 @@ strong {
    color: aliceblue;
    /*color: rgb(0, 77, 141);*/
 }
+footer {
+   text-align: center;
+   background-color: blue;
+   margin-top: 30px;
+}
+h2 {
+   text-align: center;
+   color: white;
+}
+.mainui {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+/*about page*/
 .about {
    background-color: rgb(31, 37, 159);
    margin: 20px auto auto auto;
@@ -58,36 +69,32 @@ strong {
 .about:hover {
    transform: translateY(-5px);
 }
-footer {
-   text-align: center;
-   background-color: blue;
-   margin-top: 30px;
-}
-h2 {
-   text-align: center;
-   color: white;
-}
 /*main game buttons*/
 .bundle {
    display: flex;
    margin: 20px 350px 20px 350px;
    gap: 20px;
    justify-content: space-between;
-
 }
+/* card for each game*/
 .gamecard {
-   background-color: rgb(13, 13, 110);
+   background-color: rgb(7, 7, 80);
    padding: 20px;
-   border: 2px solid blue;
+   border: 2px solid rgb(49, 49, 214);
    border-radius: 8px;
    text-align: center;
-   width: 300px;
+   width: 200px;
+   flex-shrink: 0;
    transition: 0.2s;
 } 
 .gamecard:hover {
    transform: translateY(-5px);
 }
+.gamecard p {
+   color: white;
+   /*font-family: ; */
 
+}
 /*useless probably*/
 span {
    color :aliceblue;
