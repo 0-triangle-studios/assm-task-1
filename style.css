@@ -19,6 +19,7 @@ header {
    align-items: end;
    padding: 10px;
 }
+/*nav bar*/
 nav {
    display: flex;
    gap: 10px;
