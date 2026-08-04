@@ -35,6 +35,9 @@ nav a {
 nav a:hover {
    text-decoration: underline;
 }
+nav strong {
+   font-size: 30px;
+}
 strong {
    font-size: 55px;
    font-family: 'Orbitron';
@@ -95,9 +98,12 @@ h2 {
    /*font-family: ; */
 
 }
-/*useless probably*/
-span {
+/*header icons*/
+nav span {
    color :aliceblue;
-   background-color: blue;
+   background-color: rgb(24, 24, 122);
   
+}
+nav span .fa-shopping-cart {
+   size: 50%;
 }
