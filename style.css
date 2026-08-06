@@ -54,25 +54,32 @@ h2 {
    text-align: center;
    color: white;
 }
+
+/*root class of all main ui*
 .mainui {
    display: flex;
    flex-direction: column;
    align-items: center;
-}
+}*/
 /*about page*/
 .about {
    background-color: rgb(31, 37, 159);
-   margin: 20px auto auto auto;
+   margin: 40px auto auto auto;
    border-radius: 8px;
    text-align: center;
-   padding: 5px;
-   color: white;
-   width: 800px;
+   padding: 10px;
+   color: rgb(190, 190, 190);
+   width: 80%;
    transition: 0.2s;
    font-family: Lato;
+   font-size: 180%;
 }
 .about:hover {
    transform: translateY(-5px);
+}
+.about p {
+   width: 90%;
+   padding-left: calc((100% - 90%)/2);
 }
 .about .devstitle {
    font-size: 35px;
@@ -82,20 +89,21 @@ h2 {
 }
 /*main game buttons*/
 .bundle {
-   display: flex;
-   margin: 20px 350px 20px 350px;
-   gap: 20px;
-   justify-content: space-between;
+   display: inline-flex;
+   /*margin: 20px 10% 20px 10%;*/
+   padding-left: 10%;
+   padding-right: 10%;
+   align-items: center;
+   gap: 20%;
+   flex-direction: row;
 }
 /* card for each game*/
 .gamecard {
    background-color: rgb(7, 7, 80);
-   padding: 20px;
    border: 2px solid rgb(49, 49, 214);
    border-radius: 8px;
    text-align: center;
-   width: 200px;
-   flex-shrink: 0;
+   width: 150%;
    transition: 0.2s;
    font-family: Lato;
    text-decoration: none;
@@ -114,32 +122,4 @@ h2 {
 nav span {
    color :aliceblue;
    background-color: rgb(24, 24, 122)
-}
-/*game list*/
-.gamelist div {
-background-color:rgb(0, 18, 59);
-padding: 20px;
-border: 2px solid rgb(49, 49, 214);
-border-radius: 8px;
-text-align: left;
-gap: 30px;
-margin: 30px auto 30px auto;
-width: 1000px;
-transition: 0.2s;
-color: white;
-text-decoration: none;
-}
-.gamelist div:hover {
-   transform: translateY(-5px);
-}
-.gamelist p {
-   color: rgb(0, 18, 59);
-   text-decoration: none;
-   text-align: right;
-}
-.gamelist div:hover p {
-   color: white;
-}
-.gamelist a {
-   text-decoration: none;
 }
