@@ -3,8 +3,8 @@
    vertical-align: top;
    line-height: 0px;
 }
-img {
-   width: 80px;
+.logo img {
+   width: 100px;
 }
 body {
    background-color: rgb(12, 45, 74);
