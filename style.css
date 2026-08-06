@@ -39,7 +39,7 @@ nav a:hover {
 nav strong {
    font-size: 25px;
 }
-strong {
+.logo strong {
    font-size: 55px;
    font-family: 'Orbitron';
    color: aliceblue;
@@ -69,9 +69,16 @@ h2 {
    color: white;
    width: 800px;
    transition: 0.2s;
+   font-family: Lato;
 }
 .about:hover {
    transform: translateY(-5px);
+}
+.about .devstitle {
+   font-size: 35px;
+   font-family: 'Orbitron';
+   text-align: left;
+   position: unset;
 }
 /*main game buttons*/
 .bundle {
