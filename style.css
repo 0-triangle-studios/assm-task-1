@@ -37,7 +37,7 @@ nav a:hover {
    text-decoration: underline;
 }
 nav strong {
-   font-size: 25px;
+   font-size: 20px;
 }
 .logo strong {
    font-size: 55px;
@@ -70,12 +70,8 @@ h2 {
    padding: 10px;
    color: rgb(190, 190, 190);
    width: 80%;
-   transition: 0.2s;
    font-family: Lato;
-   font-size: 180%;
-}
-.about:hover {
-   transform: translateY(-5px);
+   font-size: 100%;
 }
 .about p {
    width: 90%;
@@ -89,24 +85,24 @@ h2 {
 }
 /*main game buttons*/
 .bundle {
-   display: inline-flex;
-   /*margin: 20px 10% 20px 10%;*/
-   padding-left: 10%;
-   padding-right: 10%;
+   display: flex;
+   justify-content: center;
+   gap: 100px;
    align-items: center;
-   gap: 20%;
-   flex-direction: row;
+   margin: 20px auto;
+   width: 1000px;
 }
+   
 /* card for each game*/
 .gamecard {
-   background-color: rgb(7, 7, 80);
-   border: 2px solid rgb(49, 49, 214);
-   border-radius: 8px;
-   text-align: center;
-   width: 150%;
-   transition: 0.2s;
-   font-family: Lato;
-   text-decoration: none;
+  background-color: rgb(7, 7, 80);
+  border: 2px solid rgb(49, 49, 214);
+  border-radius: 8px;
+  text-align: center;
+  width: 250px;
+  transition: 0.2s;
+  font-family: Lato;
+  text-decoration: none;
 } 
 .gamecard:hover {
    transform: translateY(-5px);
