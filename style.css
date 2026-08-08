@@ -50,11 +50,11 @@ footer {
    background-color: rgb(24, 24, 122);
    margin-top: 70px;
 }
-h2 {
+h2, p {
    text-align: center;
    color: white;
+   font-family: Lato;
 }
-
 /*root class of all main ui*
 .mainui {
    display: flex;
@@ -70,13 +70,10 @@ h2 {
    padding: 10px;
    color: rgb(190, 190, 190);
    width: 80%;
-   transition: 0.2s;
    font-family: Lato;
    font-size: 25px;
 }
-.about:hover {
-   transform: translateY(-5px);
-}
+/*no hover for non clickable elements (users should be able to easily differentiate between what can be clicked and what can't)*/
 .about p {
    width: 90%;
    padding-left: calc((100% - 90%)/2);
@@ -105,14 +102,15 @@ h2 {
 }
 .gamecard {
    background-color: rgb(7, 7, 80);
-   border: 2px solid rgb(49, 49, 214);
+   border: 2px solid rgb(31, 37, 159);
    border-radius: 8px;
    text-align: center;
-   transition: 0.2s;
+   transition: 0.3s;
    font-family: Lato;
-} 
+}
 .gamecard:hover {
-   transform: translateY(-5px);
+   transform: translateY(-5px) scale(1.05);
+   border: 2px solid rgb(57, 57, 240)
 }
 .gamecard p {
    color: white;

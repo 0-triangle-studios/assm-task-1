@@ -8,12 +8,13 @@ text-align: left;
 gap: 30px;
 margin: 30px auto 30px auto;
 width: 1000px;
-transition: 0.2s;
+transition: 0.3s;
 color: white;
 text-decoration: none;
+font-family: Lato;
 }
 .gamelist div:hover {
-   transform: translateY(-5px);
+   transform: translateY(-5px) scale(1.02);
 }
 .gamelist p {
    color: rgb(0, 18, 59);
@@ -23,6 +24,12 @@ text-decoration: none;
 .gamelist div:hover p {
    color: white;
 }
+.gamelist p:hover {
+   text-decoration: underline;
+}
 .gamelist a {
    text-decoration: none;
+}
+.gamelist span {
+   color: rgb(49, 49, 214);
 }
