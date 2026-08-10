@@ -15,6 +15,7 @@ font-family: Lato;
 }
 .gamelist div:hover {
    transform: translateY(-5px) scale(1.02);
+   border: 2px solid rgb(67, 67, 232)
 }
 .gamelist p {
    color: rgb(0, 18, 59);
