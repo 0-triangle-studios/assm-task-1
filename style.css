@@ -102,6 +102,9 @@ h2, p {
    /*all size data goes here, NOT in ".gamecard". Learnt the hard way -ryem*/
    width: 120%;
 }
+.gamecard img {
+   width: 100%;
+}
 .gamecard {
    background-color: rgb(7, 7, 80);
    border: 2px solid rgb(31, 37, 159);
@@ -113,16 +116,6 @@ h2, p {
 .gamecard:hover {
    transform: translateY(-5px) scale(1.05);
    border: 2px solid rgb(57, 57, 240)
-}
-.gamecard p {
-   color: white;
-   /*font-family: ; */
-}
-.gamecard a {
-   text-decoration: none;
-}
-.gamecard img {
-   width: 100%;
 }
 /*header icons*/
 nav span {
