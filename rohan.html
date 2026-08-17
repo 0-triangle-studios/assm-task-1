@@ -11,6 +11,7 @@
   <link rel="icon" type="image/x-icon" href="astro.png">
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="gamepage.css">
+  <link rel="stylesheet" href="game_images/imgcarousel.css">
 </head>
 
 <body><!-- title header section-->
@@ -25,21 +26,41 @@
     <section class="rootcontainer">
 
       <div class="img_title">
-        <img src="game_images/gameplaydefault.svg" alt="The VIRUS.exe Game Image">
+
+        <div class="rootcarousel">
+          <imgsrc="game_images/gameplaydefault.svg" alt="The VIRUS.exe Game Image">
+            <!-- Controls -->
+            <input type="radio" name="slide" id="slide1" checked>
+            <input type="radio" name="slide" id="slide2">
+            <input type="radio" name="slide" id="slide3">
+            <input type="radio" name="slide" id="slide4">
+
+            <!-- Slides -->
+            <div class="slide slide1"><img src="game_images/gameplaydefault.svg"></div>
+            <div class="slide slide2">Image 2 Content</div>
+            <div class="slide slide3">Image 3 Content</div>
+            <div class="slide slide4"><img src="game_images/gameplaydefault_2.svg"></div>
+
+            <!-- Navigation Buttons -->
+            <div class="rootbtn">
+              <label for="slide1" class="btn"></label>
+              <label for="slide2" class="btn"></label>
+              <label for="slide3" class="btn"></label>
+              <label for="slide4" class="btn"></label>
+            </div>
+        </div>
+
+
         <span class="title">
           <h1>The VIRUS.exe</h1>
           <p class="description">insert short description of game here and what its about</p>
         </span>
       </div>
-
       <div class="howtoplay">
         <h2>How to Play</h2>
         <p>insert short description on controls, and the objective of the game</p>
       </div>
 
-      <div class="ingameimages">
-        <h2>Gallery</h2><!--insert screenshots of different parts of gameplay from game-->
-      </div>
     </section>
   </main><!-- copyright signage and footers-->
   <footer></footer>

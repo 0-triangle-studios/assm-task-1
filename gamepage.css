@@ -26,8 +26,9 @@ although make sure to like, organise it and stuff*\
    
 }
 
-.img_title img {
+.rootcarousel{
     width: 150%;
+    height: 150%;
 }
 
 .img_title .title {
