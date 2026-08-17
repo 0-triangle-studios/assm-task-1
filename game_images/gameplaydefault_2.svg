@@ -7,7 +7,7 @@
    width="400"
    height="300"
    viewBox="0 0 400 300"
-   sodipodi:docname="gameplaydefault.svg"
+   sodipodi:docname="gameplaydefault_2.svg"
    inkscape:version="1.4.4 (dcaf3e7, 2026-05-05)"
    inkscape:export-filename="gameplaydefault"
    inkscape:export-xdpi="96"
@@ -81,14 +81,15 @@
        r="110" />
     <text
        xml:space="preserve"
-       style="font-size:271.656px;line-height:0;font-family:'Noto Naskh Arabic';-inkscape-font-specification:'Noto Naskh Arabic';writing-mode:lr-tb;direction:ltr;fill:#ffffff;fill-opacity:1;stroke-width:4.96932"
-       x="130.87038"
-       y="243.90099"
-       id="text2"><tspan
+       style="font-size:286.499px;line-height:0;font-family:'Noto Naskh Arabic';-inkscape-font-specification:'Noto Naskh Arabic';writing-mode:lr-tb;direction:ltr;fill:#ffffff;fill-opacity:1;stroke-width:5.24084"
+       x="-258.12851"
+       y="-45.477753"
+       id="text2"
+       transform="scale(-1)"><tspan
          sodipodi:role="line"
          id="tspan2"
-         x="130.87038"
-         y="243.90099"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';stroke-width:4.96932">?</tspan></text>
+         x="-258.12851"
+         y="-45.477753"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';stroke-width:5.24084">?</tspan></text>
   </g>
 </svg>

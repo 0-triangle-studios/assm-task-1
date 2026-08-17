@@ -1,46 +1,48 @@
 <!DOCTYPE html>
-<html lang="en">
-<!--head section used as var init/library import area equivalent, (from C or smth) -note for ryem-->
-  <head>
-    <meta charset="utf-8">
-    <title>
-      HyperNova Studios
-    </title>
-    <!--stylsheets for fonts+icons+styling-->
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Orbitron">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css">
-    <link rel="icon" type="image/x-icon" href="astro.png">
-  </head>
-  <body>
-    <!-- title header section-->
-    <header>
-      <div class="logo">
-        <img src="astro.png">
-        <strong>HYPERNOVA Studios</strong>
+<html lang="en"><!--head section used as var init/library import area equivalent, (from C or smth) -note for ryem-->
+
+<head>
+  <meta charset="utf-8">
+  <title> HyperNova Studios </title><!--stylsheets for fonts+icons+styling-->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Orbitron">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css">
+  <link rel="icon" type="image/x-icon" href="astro.png">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="gamepage.css">
+</head>
+
+<body><!-- title header section-->
+  <header>
+    <div class="logo"><img src="astro.png"><strong>HYPERNOVA Studios</strong></div>
+    <nav><strong><a href="index.html"><span class="fa fa-home"></span> Home</a></strong><strong><a
+          href="games_detail.html"><span class="fa fa-gamepad"></span> Catalogue</a></strong><strong><a
+          href="buy.html"><span class="fa fa-shopping-cart"></span> Checkout</a></strong></nav>
+  </header>
+  <main>
+    <!--root of all items, serves to align everything-->
+    <section class="rootcontainer">
+
+      <div class="img_title">
+        <img src="game_images/gameplaydefault.svg" alt="The VIRUS.exe Game Image">
+        <span class="title">
+          <h1>The VIRUS.exe</h1>
+          <p class="description">insert short description of game here and what its about</p>
+        </span>
       </div>
-      <nav>
-        <strong><a href="index.html"><span class="fa fa-home"></span> Home</a></strong>
-        <strong><a href="games_detail.html"><span class="fa fa-gamepad"></span> Catalogue</a></strong>
-        <strong><a href="buy.html"><span class="fa fa-shopping-cart"></span> Checkout</a></strong>
-      </nav>
-    </header>
-    <main>
-      <img src="rohangame.png" alt="The VIRUS.exe Title Game Image">
-      <h1 class="gamename">The VIRUS.exe</h1>
-      <p class="description">insert short description of game here and what its about</p>
-    <div class="howtoplay">
-      <h2>How to Play</h2>
-      <p>insert short description on controls, and the objective of the game</p>
-    </div>
-    <div class="ingameimages">
-      <h2>Gallery</h2>
-      <!--insert screenshots of different parts of gameplay from game-->
-    </div>
-    </main>
-    <!-- copyright signage and footers-->
-    <footer></footer>
-  </body>
+
+      <div class="howtoplay">
+        <h2>How to Play</h2>
+        <p>insert short description on controls, and the objective of the game</p>
+      </div>
+
+      <div class="ingameimages">
+        <h2>Gallery</h2><!--insert screenshots of different parts of gameplay from game-->
+      </div>
+    </section>
+  </main><!-- copyright signage and footers-->
+  <footer></footer>
+</body>
+
 </html>
