@@ -63,7 +63,7 @@ h2, p {
 }*/
 /*about page*/
 .about {
-   background-color: rgb(31, 37, 159);
+   background-color: rgb(24, 24, 122);
    margin: 40px auto auto auto;
    border-radius: 16px;
    text-align: center;
@@ -115,7 +115,8 @@ h2, p {
 }
 .gamecard:hover {
    transform: translateY(-5px) scale(1.05);
-   border: 2px solid rgb(57, 57, 240)
+   border: 2px solid rgb(57, 57, 240);
+   box-shadow: 3px 3px 10px rgb(57, 57, 240);
 }
 /*header icons*/
 nav span {
