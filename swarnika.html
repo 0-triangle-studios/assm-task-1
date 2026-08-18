@@ -1,50 +1,85 @@
 <!DOCTYPE html>
 <html lang="en">
 <!--head section used as var init/library import area equivalent, (from C or smth) -note for ryem-->
-  <head>
-    <meta charset="utf-8">
-    <title>
-      HyperNova Studios
-      <!--just placeholder title, fix later-->
-    </title>
-    <!--stylsheets for fonts+icons+styling-->
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Orbitron">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css">
-    <link rel="icon" type="image/x-icon" href="astro.png">
 
-    <!--swarnika specific dependencies-->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=DynaPuff:wght@400..700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="gamepage.css">
-  </head>
-  <body>
-    <!-- title header section-->
-    <header>
-      <div class="logo">
-        <img src="astro.png">
-        <strong>HYPERNOVA Studios</strong>
-      </div>
-      <nav>
-        <strong><a href="index.html"><span class="fa fa-home"></span> Home</a></strong>
-        <strong><a href="games_detail.html"><span class="fa fa-gamepad"></span> Catalogue</a></strong>
-        <strong><a href="buy.html"><span class="fa fa-shopping-cart"></span> Checkout</a></strong>
-        <a href="ryem.html" class="gamenav">Data Brokers</a>
-        <a href="rohan.html" class="gamenav">The VIRUS.exe</a>
-        <a href="swarnika.html" class="gamenav">CyberDash</a>
-      </nav>
-    </header>
+<head>
+  <meta charset="utf-8">
+  <title> HyperNova Studios </title>
+  <!--stylsheets for fonts+icons+styling-->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Orbitron">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=DynaPuff:wght@400..700&display=swap" rel="stylesheet">
+
+  <link rel="icon" type="image/x-icon" href="astro.png">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="gamepage.css">
+  <link rel="stylesheet" href="game_images/imgcarousel.css">
+</head>
+
 <body>
+  <!-- title header section-->
+  <header>
+    <div class="logo"><img src="astro.png"><strong>HYPERNOVA Studios</strong></div>
+    <nav>
+      <strong><a href="index.html"><span class="fa fa-home"></span> Home</a></strong>
+      <strong><a href="games_detail.html"><span class="fa fa-gamepad"></span> Catalogue</a></strong>
+      <strong><a href="buy.html"><span class="fa fa-shopping-cart"></span> Checkout</a></strong>
+      <a href="ryem.html" class="gamenav">Data Brokers</a>
+      <a href="rohan.html" class="gamenav">The VIRUS.exe</a>
+      <a href="swarnika.html" class="gamenav">CyberDash</a>
+    </nav>
+  </header>
+
+  <body id="swarnikahtml">
+    <main>
+      <p></p>
+      <!--root of all items, serves to align everything-->
+      <section class="rootcontainer">
+        <div class="img_title">
+          <!--this entire scrolling thing was ripped from ryem.html -->
+          <div class="rootcarousel">
+            <input type="radio" name="slide" id="slide0" checked>
+            <input type="radio" name="slide" id="slide1">
+            <input type="radio" name="slide" id="slide2">
+            <input type="radio" name="slide" id="slide3">
+
+            <div class="slide slide0"><img src="game_images/gameplaydefault.svg"></div>
+            <div class="slide slide1">Image 2 Content</div>
+            <div class="slide slide2">Image 3 Content</div>
+            <div class="slide slide3"><img src="game_images/gameplaydefault_2.svg"></div>
+
+            <div class="rootbtn">
+              <label for="slide0" class="btn"></label>
+              <label for="slide1" class="btn"></label>
+              <label for="slide2" class="btn"></label>
+              <label for="slide3" class="btn"></label>
+            </div>
+          </div>
+
+          <span class="title"><h1> CYBERDASH </h1>
+            <p class="description">Swipe, Collect and Move onto the Higher levels!</p>
+          </span>
+        </div>
+        <div class="howtoplay">
+          <h2>How to Play</h2>
+          <p> Welcome to Cyberdash! This game will teach you all about cybersafety, and how to be aware online. To play the
+          game you must collect all the safe points by moving using your arrow keys. Make sure to not collect the fake
+          links. You get 10 points for every safe key you collect! You have three lives, however by collecting the stars you
+          can reset your lives to three. After each level you will... </p>
+        </div>
+      </section>
+    </main>
+    <!--unknown images of some sort-->
     <img src="logo.png" width=110>
-  <img src="astro (2).png" width=1000>
-<h1>  CYBERDASH </h1> 
-  <h2> Swipe, Collect and Move onto the Higher levels! </h2>
-  <p> Welcome to Cyberdash! This game will teach you all about cybersafety, and how to be aware online. To play the game you must collect all the safe points by moving using your arrow keys. Make sure to not collect the fake links. You get 10 points for every safe key you collect! You have three lives, however by collecting the stars you can reset your lives to three. After each level you will </p>
-  <img src="collect.png" width=400>
-</body>
+    <img src="astro (2).png" width=1000>
+    <img src="collect.png" width=400>
+
+  </body>
 
 </html>
