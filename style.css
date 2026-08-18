@@ -6,7 +6,8 @@
 .logo img {
    width: 100px;
 }
-body {
+/*shared tag marks all non-indiv page bodies*/
+html .shared{
    background-color: rgb(12, 45, 74);
    margin: 0px;
 }
@@ -55,12 +56,6 @@ h2, p {
    color: white;
    font-family: Lato;
 }
-/*root class of all main ui*
-.mainui {
-   display: flex;
-   flex-direction: column;
-   align-items: center;
-}*/
 /*about page*/
 .about {
    background-color: rgb(24, 24, 122);
@@ -122,4 +117,7 @@ h2, p {
 nav span {
    color :aliceblue;
    background-color: rgb(24, 24, 122)
+}
+.gamenav a {
+   text-align: right;
 }
