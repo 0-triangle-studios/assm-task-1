@@ -37,10 +37,10 @@ input[type="radio"] {
 }
 /*(uses css if statements) how active image*\
 \*must be ids instead of classes due to identification*/
+#slide0:checked ~ .slide0,
 #slide1:checked ~ .slide1,
 #slide2:checked ~ .slide2,
-#slide3:checked ~ .slide3,
-#slide4:checked ~ .slide4 {
+#slide3:checked ~ .slide3 {
   opacity: 1;
   visibility: visible;
   z-index: 1;
@@ -49,22 +49,30 @@ input[type="radio"] {
 /*non critical styling*/
 .rootbtn {
   position: absolute;
-  bottom: 15px;
+  bottom: 5px;
+  padding-top: 5px;
   width: 100%;
   text-align: center;
   z-index: 2;
+  background-color:rgba(24, 24, 24, 0.9);
 }
 
-.btn{
+.rootbtn label{
   display: inline-block;
   margin: 0 5px;
   user-select: none;
   cursor: pointer;
 
-  padding: 20px;
-  background: rgb(132, 132, 132);
+  padding: 20px 30px;
+  background: rgba(64, 64, 64, 0.6);
 }
 
-.btn:hover{
-  background: rgb(255, 255, 255);
-}   
+#slide0:checked ~ .rootbtn label[for="slide0"],
+#slide1:checked ~ .rootbtn label[for="slide1"],
+#slide2:checked ~ .rootbtn label[for="slide2"],
+#slide3:checked ~ .rootbtn label[for="slide3"] {
+  background: rgba(255, 255, 255, 0.6);
+}
+.rootbtn label:hover{
+  background: rgba(132, 132, 132, 0.6);
+}
