@@ -1,48 +1,56 @@
 /*game list*/
-.gamelist div {
-background-color:rgb(0, 18, 59);
-padding: 20px;
-border: 2px solid rgb(49, 49, 214);
-border-radius: 8px;
-display: flex;
-text-align: left;
-gap: 30px;
-margin: 30px auto 30px auto;
-width: 1000px;
-transition: 0.3s;
-color: white;
-text-decoration: none;
-align-items: center;
-font-family: Lato;
-}
-.gamelist div:hover {
-   transform: translateY(-5px) scale(1.02);
-   border: 2px solid rgb(67, 67, 232)
-}
-.gamelist p {
-   color: rgb(0, 18, 59);
-   text-decoration: none;
-   text-align: right;
-}
-.gamelist div:hover p {
-   color: white;
-}
-.gamelist p:hover {
-   text-decoration: underline;
-}
-.gamelist a {
-   text-decoration: none;
-}
-.gamelist span {
-   color: rgb(49, 49, 214);
-}
-.gamelist img {
-   width: 10%;
-   text-align: left;
-   transition: 0.3s;
-}
-/*image hovers and 'glows' separately to the gamelist div*/
-.gamelist img:hover {
-   transform: scale(1.05);
-   box-shadow: 3px 3px 10px rgb(67, 67, 232);
+.gamelist {
+   div {
+      background-color: rgb(0, 18, 59);
+      padding: 20px;
+      border: 2px solid rgb(49, 49, 214);
+      border-radius: 8px;
+      display: flex;
+      text-align: left;
+      gap: 30px;
+      margin: 30px auto 30px auto;
+      width: 1000px;
+      transition: 0.3s;
+      color: white;
+      text-decoration: none;
+      align-items: center;
+      font-family: Lato;
+   }
+
+   div:hover {
+      transform: translateY(-5px) scale(1.02);
+      border: 2px solid rgb(67, 67, 232);
+      p {
+      color: white;
+      }
+   }
+
+   p {
+      color: rgb(0, 18, 59);
+      text-decoration: none;
+      text-align: right;
+   }
+   p:hover {
+      text-decoration: underline;
+   }
+
+   a {
+      text-decoration: none;
+   }
+
+   span {
+      color: rgb(49, 49, 214);
+   }
+
+   img {
+      width: 10%;
+      text-align: left;
+      transition: 0.3s;
+   }
+
+   /*image hovers and 'glows' separately to thediv*/
+   img:hover {
+      transform: scale(1.05);
+      box-shadow: 3px 3px 10px rgb(67, 67, 232);
+   }
 }
