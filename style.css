@@ -4,16 +4,20 @@
    line-height: 0px;
 
    img {
-   width: 100px;
+      width: 100px;
    }
 }
+
 /*shared tag marks all non-indiv page bodies*/
-html .shared{
-   /*background-color: rgb(12, 45, 74);*/
-   /*background-color: #176087;*/
-   background-color: #0A2239;
-   margin: 0px;
+html {
+   body {
+      margin: 0px;
+   }
+   .shared {
+      background-color: #0A2239;
+   }
 }
+
 header {
    width: 100%;
    position: static;
@@ -23,11 +27,11 @@ header {
    align-items: end;
    padding: 10px;
 }
+
 /*nav bar*/
 nav {
    display: flex;
    gap: 10px;
-   /*background-color: rgb(24, 24, 122);*/
    width: 100%;
    margin-top: 30px;
 
@@ -37,29 +41,36 @@ nav {
       padding: 10px 20px;
       font-family: Poppins;
    }
+      
+
    a:hover {
       text-decoration: underline;
    }
+
    strong {
-   font-size: 25px;
+      font-size: 25px;
    }
 }
+
 .logo strong {
    font-size: 55px;
    font-family: 'Orbitron';
    color: aliceblue;
    /*color: rgb(0, 77, 141);*/
 }
+
 footer {
    text-align: center;
    background-color: rgb(24, 24, 122);
    margin-top: 70px;
 }
+
 h2, p {
    text-align: center;
    color: white;
    font-family: Lato;
 }
+
 /*about page*/
 .about {
    /*background-color: rgb(24, 24, 122);*/
@@ -73,7 +84,7 @@ h2, p {
    font-family: Lato;
    font-size: 25px;
    border-color: black;
-   
+
    /*no hover for non clickable elements (users should be able to easily differentiate between what can be clicked and what can't)*/
    p {
       width: 90%;
@@ -81,12 +92,13 @@ h2, p {
    }
 
    .devstitle {
-   font-size: 35px;
-   font-family: 'Orbitron';
-   text-align: left;
-   position: unset;
+      font-size: 35px;
+      font-family: 'Orbitron';
+      text-align: left;
+      position: unset;
    }
 }
+
 /*main game buttons*/
 .bundle {
    display: flex;
@@ -103,10 +115,12 @@ h2, p {
    /*all size data goes here, NOT in ".gamecard". Learnt the hard way -ryem*/
    width: 120%;
 }
+
 .gamecard {
    img {
       width: 100%;
    }
+
    background-color: rgb(7, 7, 80);
    border: 2px solid rgb(31, 37, 159);
    border-radius: 8px;
@@ -114,14 +128,14 @@ h2, p {
    transition: 0.3s;
    font-family: Lato;
 }
+
 .gamecard:hover {
    transform: translateY(-5px) scale(1.05);
    border: 2px solid rgb(57, 57, 240);
    box-shadow: 3px 3px 10px rgb(57, 57, 240);
 }
-.gamenav a {
-   text-align: right;
-}
+
+
 /*checkout cart div*/
 .cart div {
    display: flex;
@@ -135,8 +149,9 @@ h2, p {
    border: solid 2px rgb(31, 37, 159);
    border-radius: 16px;
 }
+
 .cyberbundle div {
-   background-color:blue;
+   background-color: blue;
    border: 2px solid rgb(31, 37, 159);
    border-radius: 8px;
    text-align: center;
