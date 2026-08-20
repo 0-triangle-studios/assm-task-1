@@ -132,7 +132,7 @@ h2, p {
 .gamecard:hover {
    transform: translateY(-5px) scale(1.05);
    border: 2px solid rgb(57, 57, 240);
-   box-shadow: 3px 3px 10px rgb(57, 57, 240);
+   box-shadow: 0 0 20px 5px rgb(57, 57, 240);
 }
 
 

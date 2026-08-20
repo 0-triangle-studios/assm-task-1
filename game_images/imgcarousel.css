@@ -62,7 +62,6 @@ input[type="radio"] {
   margin: 0 5px;
   user-select: none;
   cursor: pointer;
-
   padding: 20px 30px;
   background: rgba(64, 64, 64, 0.6);
 }
