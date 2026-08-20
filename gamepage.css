@@ -37,7 +37,7 @@ although make sure to like, organise it and stuff*\
 }
 
 /*individual pages*\
-\*the colour changes each page*/
+\*the colours (and fonts maybe) change each page*/
 #rohanhtml {
     background-color: rgb(1, 8, 45);
 
@@ -65,9 +65,40 @@ although make sure to like, organise it and stuff*\
 }
 
 #swarnikahtml {
-    background-color: rgb(255, 255, 255);
+    background-color: #000000;
+
+    .rootcontainer {
+        background-color: #000000;
+    }
 
     .title {
         background-color: rgb(68, 0, 146);
+    }
+
+    p {
+        color: rgb(13, 13, 141);
+    }
+
+    h1 {
+        color: rgb(8, 8, 206);
+        font-family: "Press Start 2P", system-ui;
+        font-weight: 400;
+        font-style: normal;
+        text-align: center;
+
+    }
+
+    h2 {
+        color: rgb(101, 167, 224);
+        font-family: "DynaPuff", system-ui;
+        font-optical-sizing: auto;
+        font-weight: 600;
+        font-style: normal;
+        font-variation-settings:
+            "wdth" 100;
+    }
+
+    p {
+        color: rgb(0, 123, 255);
     }
 }
