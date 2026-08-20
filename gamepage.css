@@ -33,7 +33,7 @@ although make sure to like, organise it and stuff*\
 .img_title .title {
 
     width: 60%;
-    font-size: 130%;
+    font-size: 120%;
 }
 
 /*individual pages*\
@@ -101,4 +101,10 @@ although make sure to like, organise it and stuff*\
     p {
         color: rgb(0, 123, 255);
     }
+}
+#rohanhtml .title {
+    font-family: Geist Pixel;
+}
+#rohanhtml .title p {
+    font-size: 15px;
 }
