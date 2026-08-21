@@ -65,7 +65,6 @@ input[type="radio"] {
   padding: 20px 30px;
   background: rgba(64, 64, 64, 0.6);
 }
-
 #slide0:checked ~ .rootbtn label[for="slide0"],
 #slide1:checked ~ .rootbtn label[for="slide1"],
 #slide2:checked ~ .rootbtn label[for="slide2"],

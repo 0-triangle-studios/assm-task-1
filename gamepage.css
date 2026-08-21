@@ -48,10 +48,23 @@ although make sure to like, organise it and stuff*\
         box-shadow: 0 0 20px 5px rgb(115, 29, 195);
 
         .title {
-            background-color: rgb(68, 0, 146);
+            background-color: rgb(90, 2, 144);
             border: solid 2px rgb(162, 17, 195);
             font-family: Geist Pixel;
         }
+    }
+    p {
+        font-family: VT323;
+        font-size: 25px;
+    }
+    .howtoplay p {
+    margin: auto 100px auto 100px;
+    }
+    h1 {
+        color: #08ba2c;
+    }
+    h2, h3 {
+        font-family: Geist Pixel;
     }
 }
 
@@ -105,7 +118,4 @@ although make sure to like, organise it and stuff*\
     p {
         color: rgb(0, 123, 255);
     }
-}
-#rohanhtml .title p {
-    font-size: 15px;
 }
