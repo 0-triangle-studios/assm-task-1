@@ -158,3 +158,187 @@ h2, p {
    transition: 0.3s;
    font-family: Lato;
 }
+/*game list*/
+.gamelist {
+   div {
+      background-color: rgb(0, 18, 59);
+      padding: 20px;
+      border: 2px solid rgb(49, 49, 214);
+      border-radius: 8px;
+      display: flex;
+      text-align: left;
+      gap: 30px;
+      margin: 30px auto 30px auto;
+      width: 1000px;
+      transition: 0.3s;
+      color: white;
+      text-decoration: none;
+      align-items: center;
+      font-family: Lato;
+   }
+
+   div:hover {
+      transform: translateY(-5px) scale(1.02);
+      border: 2px solid rgb(67, 67, 232);
+      p {
+      color: white;
+      }
+   }
+
+   p {
+      color: rgb(0, 18, 59);
+      text-decoration: none;
+      text-align: right;
+   }
+   p:hover {
+      text-decoration: underline;
+   }
+
+   a {
+      text-decoration: none;
+   }
+
+   span {
+      color: rgb(49, 49, 214);
+   }
+
+   img {
+      width: 10%;
+      text-align: left;
+      transition: 0.3s;
+   }
+
+   /*image hovers and 'glows' separately to thediv*/
+   img:hover {
+      transform: scale(1.05);
+      box-shadow: 0 0 10px rgb(67, 67, 232);
+   }
+}
+/*everyone's individual game page css will go here, 
+although make sure to like, organise it and stuff*\
+
+\*all pages*/
+
+.rootcarousel {
+    width: 150%;
+    height: 150%;
+}
+
+.rootcontainer {
+    margin: 20px auto auto auto;
+    border-radius: 16px;
+    text-align: center;
+    padding: 2px;
+    width: 80%;
+    font-family: Lato;
+    font-size: 25px;
+    border-color: black;
+
+    .img_title {
+        display: flex;
+        padding-bottom: 100px;
+        justify-content: center;
+        gap: 2%;
+        align-items: center;
+        margin: 20px auto;
+        width: 90%;
+
+    }
+}
+
+.img_title .title {
+    border-radius: 8px;
+    width: 60%;
+    font-size: 120%;
+}
+
+/*individual pages*\
+\*the colours (and fonts maybe) change each page*/
+#rohanhtml {
+    background-color: #100216;
+
+    .rootcontainer {
+        background-color: #380845;
+        color: rgb(190, 190, 190);
+        border: solid 2px #950fca;
+        box-shadow: 0 0 20px 5px rgb(115, 29, 195);
+
+        .title {
+            background-color: rgb(90, 2, 144);
+            border: solid 2px rgb(162, 17, 195);
+            font-family: Geist Pixel;
+        }
+    }
+    p {
+        font-family: VT323;
+        font-size: 25px;
+    }
+    .howtoplay p {
+    margin: auto 100px 20px 100px;
+    }
+    h1 {
+        color: #08ba2c;
+    }
+    h2, h3 {
+        font-family: Geist Pixel;
+        margin: 50px auto 50px auto;
+    }
+    ul {
+        text-align: center;
+        list-style-position: inside;
+        font-family: VT323;
+        color: white;
+    }
+}
+
+#ryemhtml {
+    background-color: rgb(15, 15, 15);
+
+    .rootcontainer {
+        background-color: rgb(2, 48, 0);
+        color: rgb(190, 190, 190);
+
+        .title {
+            background-color: rgb(16, 99, 0);
+        }
+    }
+}
+
+#swarnikahtml {
+    background-color: #000000;
+
+    .rootcontainer {
+        background-color: #000000;
+    }
+
+    .title {
+        background-color: rgb(68, 0, 146);
+    }
+
+    p {
+        color: rgb(13, 13, 141);
+    }
+
+    h1 {
+        color: rgb(8, 8, 206);
+        font-family: "Press Start 2P", system-ui;
+        font-weight: 400;
+        font-style: normal;
+        text-align: center;
+
+    }
+
+    h2 {
+        color: rgb(101, 167, 224);
+        font-family: "DynaPuff", system-ui;
+        font-optical-sizing: auto;
+        font-weight: 600;
+        font-style: normal;
+        font-variation-settings:
+            "wdth" 100;
+    }
+
+    p {
+        color: rgb(0, 123, 255);
+    }
+}
