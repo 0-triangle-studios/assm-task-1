@@ -63,6 +63,8 @@ footer {
    text-align: center;
    background-color: rgb(24, 24, 122);
    margin-top: 70px;
+   color: white;
+   font-family: Fira Code;
 }
 
 h2 {
@@ -102,6 +104,14 @@ h2 {
    }
 }
 /*main game buttons*/
+.bundle-outline {
+   h2 {
+      font-size: 35px;
+   }
+   p {
+      font-size: 25px;
+   }
+}
 .bundle {
    display: flex;
    justify-content: center;
@@ -109,7 +119,7 @@ h2 {
    align-items: center;
    margin: 20px auto;
    width: 70%;
-   padding-bottom: 30%;
+   padding-bottom: 30px;
 }
 
 /* card for each game*/
