@@ -39,7 +39,7 @@ nav {
       color: white;
       text-decoration: none;
       padding: 10px 20px;
-      font-family: Roboto;
+      font-family: Fira Code;
    }
       
 
@@ -65,10 +65,14 @@ footer {
    margin-top: 70px;
 }
 
-h2, p {
+h2 {
    text-align: center;
    color: white;
-   font-family: Lato;
+   font-family: Fira Code;
+} p {
+   text-align: center;
+   color: white;
+   font-family: VT323;
 }
 
 /*about page*/
@@ -81,7 +85,6 @@ h2, p {
    padding: 10px;
    color: rgb(190, 190, 190);
    width: 80%;
-   font-family: Lato;
    font-size: 25px;
    border-color: black;
 
@@ -98,7 +101,6 @@ h2, p {
       position: unset;
    }
 }
-
 /*main game buttons*/
 .bundle {
    display: flex;
@@ -126,7 +128,6 @@ h2, p {
    border-radius: 8px;
    text-align: center;
    transition: 0.3s;
-   font-family: Lato;
 }
 
 .gamecard:hover {
@@ -156,7 +157,6 @@ h2, p {
    border-radius: 8px;
    text-align: center;
    transition: 0.3s;
-   font-family: Lato;
 }
 /*game list*/
 .gamelist {
@@ -174,7 +174,7 @@ h2, p {
       color: white;
       text-decoration: none;
       align-items: center;
-      font-family: Lato;
+      font-family: Fira Code;
    }
 
    div:hover {
@@ -189,6 +189,7 @@ h2, p {
       color: rgb(0, 18, 59);
       text-decoration: none;
       text-align: right;
+      font-family: Fira Code;
    }
    p:hover {
       text-decoration: underline;
@@ -252,7 +253,7 @@ although make sure to like, organise it and stuff*\
     font-size: 120%;
 }
 
-/*styling for the invidivdual pages. All fonts, colours and structure is the same, while images difer between pages*/
+/*styling for the invidivdual pages. All fonts, colours and structure is the same, while images differ between pages*/
 #shared {
     background-color: #0A2239;
 
