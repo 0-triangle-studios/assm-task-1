@@ -252,20 +252,19 @@ although make sure to like, organise it and stuff*\
     font-size: 120%;
 }
 
-/*individual pages*\
-\*the colours (and fonts maybe) change each page*/
-#rohanhtml {
-    background-color: #100216;
+/*styling for the invidivdual pages. All fonts, colours and structure is the same, while images difer between pages*/
+#shared {
+    background-color: #0A2239;
 
     .rootcontainer {
-        background-color: #380845;
+        background-color: rgb(4, 19, 55);
         color: rgb(190, 190, 190);
-        border: solid 2px #950fca;
-        box-shadow: 0 0 20px 5px rgb(115, 29, 195);
+        border: solid 2px #118bf6;
+        box-shadow: 0 0 20px 5px rgb(29, 129, 195);
 
         .title {
-            background-color: rgb(90, 2, 144);
-            border: solid 2px rgb(162, 17, 195);
+            background-color: rgb(13, 41, 124);
+            border: solid 2px rgb(17, 88, 195);
             font-family: Geist Pixel;
         }
     }
@@ -277,7 +276,7 @@ although make sure to like, organise it and stuff*\
     margin: auto 100px 20px 100px;
     }
     h1 {
-        color: #08ba2c;
+        color: white;
     }
     h2, h3 {
         font-family: Geist Pixel;
